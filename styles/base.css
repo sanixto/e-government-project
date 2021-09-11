@@ -8,6 +8,12 @@ p {
   letter-spacing: 1px;
 }
 
-body{
+.body-day-mode {
   background-color:lavenderblush;
+  color: black;
+}
+
+.body-night-mode {
+  background-color: black;
+  color: white;
 }

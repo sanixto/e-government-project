@@ -5,36 +5,32 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-  
-  .header {
-    width: 100%;
-    height: 80px;
-    background-color:navy;
-    border: solid brown;
-    border-width: 5px 0 5px;
-    box-sizing: border-box;
-  }
-  
-  .header h1 {
-    font-size: 32px;
-    margin: 10px;
-    color:honeydew;
-    text-align: center;
-  }
-   
-  .header img {
+
+  #changeMode {
     position: absolute;
-    top: 190px;
-    width: 150px;
-    height: 110px;
-    border: 5px solid brown;
-    border-radius: 3px;
+    top: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
   }
   
-  #goverment {
-    left: 30px;
+  #changeMode:hover {
+    opacity: 0.8;
   }
   
-  #flag {
-    right: 30px;
+  .button-day-mode {
+    background-color: lightblue;
+    border: 0.5px solid black; 
+  }
+
+  .button-night-mode {
+    background-color: darkblue;
+    border: 0.5px solid white;
+  }
+
+  #sun { 
+    width: 40px;
+    height: 40px;
+    padding: 5px;
   }
