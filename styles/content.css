@@ -4,17 +4,23 @@
 
 h2 {
     font-size: 32px;
-  }
+}
+
+h2:hover {
+    text-decoration: underline;
+    opacity: 0.6;
+}
 
 ul {
     width: 60%;
 }  
+
 ul li {
     padding-bottom: 10px;
 }
   
-  #keyboard {
+#keyboard {
       position: absolute;
       top: 500px;
       right: 70px;
-  }
+}
