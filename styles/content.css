@@ -1,0 +1,20 @@
+.content {
+    padding: 10px 40px 10px;
+}
+
+h2 {
+    font-size: 32px;
+  }
+
+ul {
+    width: 60%;
+}  
+ul li {
+    padding-bottom: 10px;
+}
+  
+  #keyboard {
+      position: absolute;
+      top: 500px;
+      right: 70px;
+  }

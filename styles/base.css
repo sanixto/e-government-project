@@ -1,0 +1,13 @@
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body{
+  background-color:lavenderblush;
+}
