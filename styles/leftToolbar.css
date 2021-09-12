@@ -1,0 +1,25 @@
+.left-toolbar {
+    position: fixed;
+    background-color: lightgray;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid black;
+    padding: 60px 20px 60px;
+}
+
+.left-toolbar-night-mode {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border-right: 1px solid white;
+}
+
+.left-toolbar p {
+    font-size: 16px;
+    font-weight: bold
+}
+
+.left-toolbar span:hover {
+    color:maroon;
+}

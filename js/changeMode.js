@@ -4,14 +4,18 @@ class ChangeMode {
     constructor() {
       this.srcSun = 'img/top/sun.jpeg'; 
       this.srcMoon = 'img/top/moon.jpeg';
+      
       this.classButNight = 'button-night-mode';
       this.classBodyNight = 'body-night-mode';
+      this.classTollbarNight = 'left-toolbar-night-mode';
     }
 
     render() {
         button.classList.toggle(this.classButNight); 
   
         document.body.classList.toggle(this.classBodyNight);  
+
+        toolbar.classList.toggle(this.classTollbarNight);
 
         if ( button.classList.contains(this.classButNight) ) {
             button.firstElementChild.src = this.srcMoon; 
