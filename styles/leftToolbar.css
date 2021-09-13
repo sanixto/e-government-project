@@ -22,4 +22,5 @@
 
 .left-toolbar span:hover {
     color:maroon;
+    cursor: pointer;
 }

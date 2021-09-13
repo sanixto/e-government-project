@@ -17,6 +17,7 @@
   
   #changeMode:hover {
     opacity: 0.8;
+    cursor: pointer;
   }
   
   .button-day-mode {

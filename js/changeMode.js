@@ -1,5 +1,3 @@
-const button = document.getElementById('changeMode');
-
 class ChangeMode {
     constructor() {
       this.srcSun = 'img/top/sun.jpeg'; 
@@ -10,22 +8,22 @@ class ChangeMode {
       this.classTollbarNight = 'left-toolbar-night-mode';
     }
 
-    render() {
-        button.classList.toggle(this.classButNight); 
+    toChange() {
+      const button = document.getElementById('changeMode');
+      const toolbar = document.querySelector('.left-toolbar');
+
+      button.classList.toggle(this.classButNight); 
   
-        document.body.classList.toggle(this.classBodyNight);  
+      document.body.classList.toggle(this.classBodyNight);  
 
-        toolbar.classList.toggle(this.classTollbarNight);
+      toolbar.classList.toggle(this.classTollbarNight);
 
-        if ( button.classList.contains(this.classButNight) ) {
-            button.firstElementChild.src = this.srcMoon; 
-        } else {
+      if ( button.classList.contains(this.classButNight) ) {
+        button.firstElementChild.src = this.srcMoon; 
+      } else { 
           button.firstElementChild.src = this.srcSun;  
-        }
+      }
     } 
 }
 
-button.addEventListener('click', function() {
-  const changeModeStart = new ChangeMode;
-  changeModeStart.render();
-})
+export default new ChangeMode();
