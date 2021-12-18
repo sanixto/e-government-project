@@ -13,4 +13,3 @@ window.addEventListener('scroll', () => leftToolbarPage.scrollTo());
 
 leftToolbarElem.addEventListener('click', (event) => leftToolbarPage.onClick(event));
 buttonChangeMode.addEventListener('click', () => changeModePage.toChange());
-
