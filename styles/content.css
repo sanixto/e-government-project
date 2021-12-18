@@ -1,5 +1,9 @@
 .content {
-    padding: 10px 40px 10px;
+    padding: 40px 40px 10px; 
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 30%;
 }
 
 h2 {
@@ -19,9 +23,9 @@ ul {
 li {
     padding-bottom: 10px;
 }
-  
+
 #keyboard {
-      position: absolute;
-      top: 500px;
-      right: 70px;
+    position: absolute;
+    top: 500px;
+    right: 70px;
 }
