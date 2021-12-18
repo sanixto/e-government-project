@@ -7,8 +7,9 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1.5px;
 }
 
 body, h1, h2, h3, h4, p, ul[class], ol[class],
@@ -35,10 +36,6 @@ button,
 textarea,
 select {
   font: inherit;
-}
-
-p {
-  letter-spacing: 1.5px;
 }
 
 .body-day-mode {

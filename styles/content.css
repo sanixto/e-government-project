@@ -3,7 +3,6 @@
     height: 100%;
     width: 100%;
     left: 0;
-    top: 30%;
 }
 
 h2 {
@@ -16,16 +15,10 @@ h2:hover {
     cursor: pointer;
 }
 
-ul {
+/* ul {
     width: 60%;
-}  
+}   */
 
 li {
-    padding-bottom: 10px;
-}
-
-#keyboard {
-    position: absolute;
-    top: 500px;
-    right: 70px;
+    padding-bottom: 5px;
 }
