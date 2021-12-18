@@ -42,11 +42,11 @@ class LeftToolbar {
 
   render() {
     const html = `
-      <div style="flex: 1; display: flex; justify-content: center;"><img src="/img/leftToolbar/building.jpeg" id="building"></div>
+      <div style="flex: 1; display: flex; justify-content: center;"><img src="img/leftToolbar/building.jpeg" id="building"></div>
       <div style="flex: 9; display: flex; flex-direction: row-reverse;">
         <div style="flex:1; display: flex; align-items: center;">
           <div class="left-arrow-container">
-            <img src="/img/leftToolbar/left-arrow.png" class="arrow">
+            <img src="img/leftToolbar/left-arrow.png" class="arrow">
           </div>
         </div>
       
@@ -83,7 +83,7 @@ class LeftToolbar {
   createButShow() {
     this.butShow = document.createElement('div');
     this.butShow.className = 'right-arrow-container';
-    this.butShow.innerHTML = `<img src="/img/leftToolbar/right-arrow.png" class="arrow">`;
+    this.butShow.innerHTML = `<img src="img/leftToolbar/right-arrow.png" class="arrow">`;
     this.butShow.style.display = 'none';
   }
 }

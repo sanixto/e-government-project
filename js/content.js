@@ -8,4 +8,4 @@ class Content {
     }  
 }
 
-export default new Content;
+export default new Content();
