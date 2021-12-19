@@ -15,10 +15,17 @@ h2:hover {
     cursor: pointer;
 }
 
-/* ul {
-    width: 60%;
-}   */
-
 li {
     padding-bottom: 5px;
+}
+
+.authors {
+    padding: 20px;
+    opacity: 0.9;
+    border-top: 0.5px solid black;
+}
+
+.authors img {
+    height: 20px;
+    width: 20px;
 }
